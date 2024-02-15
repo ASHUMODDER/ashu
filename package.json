@@ -1,0 +1,18 @@
+{
+  "name": "ashu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "restart": "node index",
+    "dev": "nodemon index",
+    "pm2": "pm2 start index.js --name ashu"
+  },
+  "author": "thacku",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "grammy": "^1.20.4"
+  }
+}
