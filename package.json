@@ -9,7 +9,7 @@
     "dev": "nodemon index",
     "pm2": "pm2 start index.js --name ashu"
   },
-  "author": "thacku",
+  "author": "ashu",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.4",
